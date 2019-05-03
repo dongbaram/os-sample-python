@@ -1,9 +1,9 @@
 from flask import Flask
 application = Flask(__name__)
 
-@application.route("/")
+@application.route("/test/")
 def hello():
-    return "OpenShift Hello World!22"
+    return "OpenShift Hello World! test"
 
 if __name__ == "__main__":
     application.run()
